@@ -2,15 +2,14 @@
 
 int main(){
 	
-	int a,i;
+	int a,i,c;
 	
 	printf("Enter the number :");
 	scanf("%d",&a);
 	
-	for(i = 1;i < 11;i++){
-		a = a*i;
-		printf("%d\n",a);
-		a = a/i;
+	for(i = 0;i < 11;i++){
+		c = i*a;
+		printf("%d x %d = %d\n",a,i,c);
 	}
 	
 	return main();
